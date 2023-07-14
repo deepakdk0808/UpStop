@@ -1,0 +1,48 @@
+.seat-reservation-system {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .seat-layout-container {
+    margin-bottom: 20px;
+  }
+  
+  .seat-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .seat-row {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .seat {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .seat.reserved {
+    background-color: red;
+    cursor: not-allowed;
+  }
+  
+  .reservation-details {
+    margin-bottom: 20px;
+  }
+  
+  .book-seats {
+    margin-bottom: 20px;
+  }
+  
+  input[type='number'] {
+    width: 50px;
+  }
+  
